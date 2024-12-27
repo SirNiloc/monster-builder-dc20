@@ -20,6 +20,18 @@
         "type": "module",
         "compatibility": {}
       }
+    ],
+    "requires": [
+      {
+        "id": "skill-tree",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dc20-monsters-by-sirniloc",
+        "type": "module",
+        "compatibility": {}
+      }
     ]
   },
   "authors": [
@@ -37,12 +49,13 @@
       "label": "Monster Builder",
       "path": "packs/monster-builder",
       "type": "JournalEntry",
+      "system": "dc20rpg",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dc20rpg",
-      "flags": {}
+      }
     }
-  ]
+  ],
+  "description": "This module uses TheRipper93's Skill Tree module to help build monsters using skill trees.",
+  "url": "https://github.com/SirNiloc/monster-builder-dc20"
 }
